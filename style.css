@@ -1,0 +1,78 @@
+/* stylep.css */
+:root {
+    --dark-color: #000;
+  }
+  html, body {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+  }
+  body {
+    background-image: url(./fotos/5159383869126979443.jpg); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Altura del viewport para que el fondo ocupe toda la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+a{
+    color: black;
+    font-size: 30px;
+}
+main {
+    background-color: rgba(255, 255, 255, 0.432);
+    backdrop-filter: blur(10px);
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+
+
+section {
+    margin: 20px 0;
+}
+
+.cuadros {
+    text-align: left;
+    color: #000000;
+}
+
+.cuadros input[type="text"],
+.cuadros input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #000000;
+    font-size: 16px;
+}
+
+.cuadros input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4c5eaf;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cuadros input[type="submit"]:hover {
+    background-color: blue;
+}
+
+footer {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    margin-top: 20px;
+}

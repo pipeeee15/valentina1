@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <header>
+        
+       <div>
+        <h1>Instrucciones:</h1>
+        <ol>
+            <li>Tu usuario es: vale (sin mayusculas).</li>
+            <li>Tu contraseña esta compuesta por 2 palabras y un numero.</li>
+            <li>Se ve asi ****** * ****** **</li>
+            <li>La primera palabras es el nombre de un ser que amas desde que llego a tu vida, un ser que consientes tooodos los dias. </li>
+            <li>La segunda es una letra... un conector JAJAJA.</li>
+            <li>La tercera es el nombre de un ser al cual amas mucho.</li>
+            <li>Al final va un numero...</li><br>
+            <small><b>Nota:</b> nada va en mayusculas.</small><br>
+            <small>y si hay espacios</small>
+        </ol>
+       </div>
+        
+    </header>
+    <section>
+
+        <form action="validar.php" method="post">
+    <div class="cuadros">
+        Usuario<input type="text" name="usuario" id="usuario"><br>
+        Contraseña<input type="password" name="contra" id="contrasena" ><br>
+        <button type="button" onclick="mostrarContrasena()">Mostrar/Ocultar</button><br>
+        <input type="submit" value="Enviar">
+        <hr>
+    </div>
+</form>
+        
+    </section>
+    <script src="script.js"></script>
+    <footer>
+        Te amo mi niña ♥
+    </footer>
+</main>
+</body>
+</html>
